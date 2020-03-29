@@ -65,6 +65,6 @@ You can wire to the pads where the old chip used to be for a neater result:
 ![SNES controller](/pictures/wiring.jpg)
 
 # Known issues
-The code runs quite slow on the Pro Mini. Not sure what the issue is, but that explains why I don't know the exact time you must hold the button combos. This hasn't posed any issues at all when playing, but it should be still be mentioned.
+The code runs quite slow on the Pro Mini. Not sure what the problem is, but that explains why I don't know the exact time you must hold the button combos. This hasn't posed any issues at all when playing, but it should be still be mentioned.
 
 The Qoob Pro BIOS absolutely hates this controller. It either doesn't work right or it will just refuse to boot. This is unfortunate but once you're past that I've experienced no issues.
