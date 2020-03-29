@@ -27,14 +27,16 @@ Y | Y | B
 * Controller to sacrifice
 * A compatible Arduino board @16MHz, I use an Arduino Pro Mini (must be powered by 3.3V!)
 * GameCube controller extension cord
+* 10k resistor to pull up the data line
 
 To my knowledge no 3.3V 16Mhz Arduino board exist, but the ATmega328p on a 5V 16Mhz Arduino Pro Mini can run at 3.3V. Though it is not advised to do so, I personally haven't had any issues, but please keep this in mind. Additional information can be found in the microcontroller datasheet:
 http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
 # How to build (will be improved eventually)
 * Flash the code to the Arduino. An external programmer like the USBtinyISP works great.
-* Remove all components on the controller PCB and solder in the Arduino to the pads where the controller IC used to be.
+* Remove all components on the controller PCB and solder the button outputs of the Arduino to the controller PCB. Don't forget to connect GND.
 * Wire up 3.3V, GND and Data from the extension cord. DO NOT USE 5V!
+* Connect the 10k resistor between 3.3V and data line.
 
 Arduino Pro Mini pinout:
 
@@ -55,3 +57,9 @@ GND | GND
 9 | Right
 10 | Left
 14 | Down
+
+The Pro Mini fits nicely in this spot:
+![SNES controller](/pictures/placement.jpg)
+
+You can wire to the pads where the old chip used to be for a neater result:
+![SNES controller](/pictures/wiring.jpg)
