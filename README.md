@@ -12,7 +12,7 @@ Requires the Nintendo library by NicoHood: https://github.com/NicoHood/Nintendo
 Press and hold Select, L and R together with the button of choice for about one second to set the current mode. D-pad assignment and button layouts can be set individually.
 ![SNES controller](/SNES_controller.gif)
 
-The regular button layout matches the buttons on the SNES controller. The alternate button layout tries to mimic the layout of a GameCube controller which might work better for Gameboy Advance games as it should be easier to jump while running in Super Mario using this layout.
+The regular button layout matches the buttons on the SNES controller. The alternate button layout tries to mimic the layout of a GameCube controller which should work better for Gameboy Advance games, it's easier to jump while running in Super Mario.
 
 Controller buttons | Regular layout | Alternate layout
 ------------ | ------------- | -------------
