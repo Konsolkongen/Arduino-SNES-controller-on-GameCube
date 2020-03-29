@@ -28,7 +28,7 @@ Y | Y | B
 * A compatible Arduino board @16MHz, I use an Arduino Pro Mini (must be powered by 3.3V!)
 * GameCube controller extension cord
 
-To my knowledge no 3.3V 16Mhz Arduino board exist, but the ATmega328p on a 5V 16Mhz Arduino Pro Mini can run at 3.3V. Though this is not advised to do so, I personally haven't had any issue doing so, but please keep this in mind. Additional information can be found in the microcontroller datasheet:
+To my knowledge no 3.3V 16Mhz Arduino board exist, but the ATmega328p on a 5V 16Mhz Arduino Pro Mini can run at 3.3V. Though it is not advised to do so, I personally haven't had any issues, but please keep this in mind. Additional information can be found in the microcontroller datasheet:
 http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
 # How to build (will be improved eventually)
