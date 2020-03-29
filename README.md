@@ -26,7 +26,7 @@ Y | Y | B
 # Required components
 * Controller to sacrifice
 * A compatible Arduino board @16MHz, I use an Arduino Pro Mini (must be powered by 3.3V!)
-* GameCube controller extension cord
+* GameCube controller extension cord (wire colors might be different from mine, check continuity yourself)
 * 10k resistor to pull up the data line
 
 To my knowledge no 3.3V 16Mhz Arduino board exist, but the ATmega328p on a 5V 16Mhz Arduino Pro Mini can run at 3.3V. Though it is not advised to do so, I personally haven't had any issues, but please keep this in mind. Additional information can be found in the microcontroller datasheet:
@@ -36,7 +36,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontr
 * Flash the code to the Arduino. An external programmer like the USBtinyISP works great.
 * Remove all components on the controller PCB and solder the button outputs of the Arduino to the controller PCB. Don't forget to connect GND.
 * Wire up 3.3V, GND and Data from the extension cord. DO NOT USE 5V!
-* Connect the 10k resistor between 3.3V and data line.
+* Connect the 10k resistor between 3.3V and the data line.
 
 Arduino Pro Mini pinout:
 
