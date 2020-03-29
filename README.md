@@ -1,4 +1,4 @@
-# Arduino-SNES-controller-on-GameCube
+# Arduino SNES controller on GameCube
 Modify a SNES (or similar) controller to work on GameCube using an Arduino. The goal was to make a cheap alternative to the expensive Hori Gameboy controller using easily available parts.
 
 Based on the Smash Box code by SimpleControllers: https://github.com/SimpleControllers/SimpleControllersBuild-a-Box
