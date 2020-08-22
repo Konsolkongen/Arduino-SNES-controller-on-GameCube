@@ -6,7 +6,7 @@ Requires the Nintendo library by NicoHood: https://github.com/NicoHood/Nintendo
 
 # Features
 * Switch between D-pad and analog mapping
-* Two different button layouts
+* Three different button layouts
 * Can save current settings to be automatically re-enabled on power on
 
 Press and hold Select, L and R together with the button of choice for about one second to set the current mode. D-pad assignment and button layouts can be set individually.
@@ -14,14 +14,15 @@ Press and hold Select, L and R together with the button of choice for about one 
 
 (Save combo must be held for 2-3 second).
 
-The regular button layout matches the buttons on the SNES controller. The alternate button layout tries to mimic the layout of a GameCube controller which should work better for Gameboy Advance games, it's easier to jump while running in Super Mario.
+The regular button layout matches the buttons on the SNES controller. The alternate button layout tries to mimic the layout of a GameCube controller.
+A new Game Boy Advance layout was added in v2.4 (hold X - not shown in gif).
 
-Controller buttons | Regular layout | Alternate layout
------------- | ------------- | -------------
-A | A | X
-B | B | A
-X | X | Y
-Y | Y | B
+Controller buttons | Regular layout | Alternate layout | Game Boy Advance
+------------ | ------------- | ------------- | -------------
+A | A | X | A
+B | B | A | B
+X | X | Y | B
+Y | Y | B | B
 
 # Required components
 * Controller to sacrifice
@@ -68,3 +69,5 @@ You can wire to the pads where the old chip used to be for a neater result:
 The code runs quite slow on the Pro Mini. Not sure where the bottleneck is, but that explains why I don't know the exact time you must hold the button combos. This hasn't posed any issues at all when playing, but it should be still be mentioned.
 
 The Qoob Pro BIOS absolutely hates this controller. It either doesn't work right or it will just refuse to boot. This is unfortunate but once you're past that I've experienced no issues.
+
+On first use or after updating to a newer version, you will need to define either D-pad or analog and a button layout (see gif) and save the config.
