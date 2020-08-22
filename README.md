@@ -25,7 +25,7 @@ X | X | Y | B
 Y | Y | B | B
 
 # Required components
-* Controller to sacrifice
+* A controller to sacrifice
 * A compatible Arduino board @16MHz, I use an Arduino Pro Mini (must be powered by 3.3V!)
 * GameCube controller extension cord (wire colors might be different from mine, check continuity yourself)
 * 10k resistor to pull up the data line
@@ -33,7 +33,7 @@ Y | Y | B | B
 To my knowledge no 3.3V 16Mhz Arduino board exist, but the ATmega328p on a 5V 16Mhz Arduino Pro Mini can run at 3.3V. Though it is not advised to do so, I personally haven't had any issues, but please keep this in mind. Additional information can be found in the microcontroller datasheet:
 http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
-# How to build (will be improved eventually)
+# How to build
 * Flash the code to the Arduino. An external programmer like the USBtinyISP works great.
 * Remove all components on the controller PCB and solder the button outputs of the Arduino to the controller PCB. Don't forget to connect GND.
 * Wire up 3.3V, GND and Data from the extension cord. DO NOT USE 5V!
@@ -70,4 +70,4 @@ The code runs quite slow on the Pro Mini. Not sure where the bottleneck is, but 
 
 The Qoob Pro BIOS absolutely hates this controller. It either doesn't work right or it will just refuse to boot. This is unfortunate but once you're past that I've experienced no issues.
 
-On first use or after updating to a newer version, you will need to define either D-pad or analog and a button layout (see gif) and save the config.
+On first use or after updating to a newer version, you will need to define either D-pad or analog and a button layout and save the config (see gif).
